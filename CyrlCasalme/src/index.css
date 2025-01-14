@@ -5,7 +5,7 @@ body {
 
 h1 {
   background: rgb(17,17,14);
-background: radial-gradient(circle, rgba(17,17,14,1) 52%, rgba(181,203,203,1) 99%);
+  background: radial-gradient(circle, rgba(17,17,14,1) 52%, rgba(181,203,203,1) 99%);
   color: white;
   font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
   padding: 1rem;
@@ -41,6 +41,8 @@ div.card-body {
   background: rgb(240,238,227);
   background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
   color: #3F403E;
+  color: rgb(167, 133, 133);
+  color: #3F403E;
   font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
   display: flex;
   justify-content: center;
@@ -60,8 +62,8 @@ div.card-body {
 }
 
 .container1 {
-  background: rgb(152,152,144);
-  background: radial-gradient(circle, rgba(152,152,144,1) 56%, rgba(80,85,85,1) 95%);
+  background: rgb(17,17,14);
+  background: radial-gradient(circle, rgba(17,17,14,1) 52%, rgba(181,203,203,1) 99%);
   color: #3F403E;
   font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
   display: flex;
@@ -70,6 +72,27 @@ div.card-body {
   padding: 48.4463px 92.048px;
 }
 
-.portfolio-image {
-  background-image: url('./portfolioimage.png');
+.box2 {
+  background-image: url('https://images.unsplash.com/photo-1612838326820-4b3b3b3b3b3b'); /*test*/
+}
+
+h3 {
+  color: black;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  padding: 1rem;
+  text-align: center;
+}
+
+li {
+  color: black;
+  font-weight: bold;
+
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  padding: 0.25rem;
+  text-align: center;
+}
+
+li:hover {
+  background: rgb(152,152,144);
+  background: radial-gradient(circle, rgba(152,152,144,1) 56%, rgba(80,85,85,1) 95%);
 }
