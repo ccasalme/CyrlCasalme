@@ -54,14 +54,21 @@
 // export default Navbar;
 
 import { Link, useLocation } from 'react-router-dom';
+import heroBanner from '../assets/PortfolioBanner.png';
+import '../styles/Navbar.css';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function Navbar() {
   const currentPage = useLocation().pathname;
+  //   const [click, setClick] = useState(false);
+
+//   const handleClick = () => setClick(!click);
+//   const closeMobileMenu = () => setClick(false);
 
   return (
     <ul className="nav nav-tabs">
+      <img src={heroBanner} alt="Hero Banner" className="hero-banner" />
       <li className="nav-item">
         <Link
           to="/"
