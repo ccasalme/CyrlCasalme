@@ -22,9 +22,23 @@ export default function Home() {
         <br />
         <CCard className="container1">
           <CCardBody>
-            <p className="home-intro">
-                placeholder text
-            </p>
+                <h2 className="home-intro">
+                    Where to find me:
+                </h2>
+                <ul>
+                    <li>
+                        <a>LinkedIn</a>
+                    </li>
+                    <li>
+                        <a>Github</a>
+                    </li>
+                    <li>
+                        <a>YouTube</a>
+                    </li>
+                    <li>
+                        <a>Blogging Website</a>
+                    </li>
+                </ul>
           </CCardBody>
         </CCard>
       </div>
