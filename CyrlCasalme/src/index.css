@@ -4,8 +4,8 @@ body {
 }
 
 h1 {
-  background: rgb(5,28,51);
-  background: radial-gradient(circle, rgba(5,28,51,1) 34%, rgba(68,82,99,1) 100%);
+  background: rgb(17,17,14);
+background: radial-gradient(circle, rgba(17,17,14,1) 52%, rgba(181,203,203,1) 99%);
   color: white;
   font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
   padding: 1rem;
@@ -21,8 +21,8 @@ p {
 }
 
 ul.nav.nav-tabs {
-  background: rgb(139,137,127);
-  background: linear-gradient(0deg, rgba(139,137,127,1) 0%, rgba(139,119,75,1) 100%);
+  background: rgb(152,152,144);
+  background: radial-gradient(circle, rgba(152,152,144,1) 56%, rgba(80,85,85,1) 95%);
   color: rgb(167, 133, 133);
   border-radius: 10px;
   display: flex;
@@ -33,7 +33,8 @@ ul.nav.nav-tabs {
   }
   
   ul.nav.nav-tabs:hover {
-    background: rgb(109, 110, 105);
+    background: rgb(152,152,144);
+    background: radial-gradient(circle, rgba(152,152,144,1) 56%, rgba(80,85,85,1) 95%);
 }
 
 div.card-body {
@@ -59,8 +60,8 @@ div.card-body {
 }
 
 .container1 {
-  background: rgb(240,238,227);
-  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
+  background: rgb(152,152,144);
+  background: radial-gradient(circle, rgba(152,152,144,1) 56%, rgba(80,85,85,1) 95%);
   color: #3F403E;
   font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
   display: flex;
