@@ -15,28 +15,31 @@ export default function Home() {
         <br />
         <br />
         <br/>
-        <CCardBody>
-            <img />
-        </CCardBody>
+        <CCard ClassName="box2">
+            <CCardBody>
+            </CCardBody>
+        </CCard>
         <br />
         <br />
         <CCard className="container1">
-          <CCardBody>
-                <h2 className="home-intro">
+          <CCardBody className="where-to-find-me">
+            <CCardBody className="where-to-find-me">
+            <h3>
                     Where to find me:
-                </h2>
+            </h3>
+            </CCardBody>
                 <ul>
                     <li>
-                        <a>LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/cyrl-casalme-948835181/">LinkedIn</a>
                     </li>
                     <li>
-                        <a>Github</a>
+                        <a href="https://github.com/ccasalme">Github</a>
                     </li>
                     <li>
-                        <a>YouTube</a>
+                        <a href="https://www.youtube.com/@CCasalme">YouTube</a>
                     </li>
                     <li>
-                        <a>Blogging Website</a>
+                        <a href="https://stealmynoteshere.com/">Blogging Website</a>
                     </li>
                 </ul>
           </CCardBody>
