@@ -57,3 +57,18 @@ div.card-body {
   align-items: center;
   padding: 48.4463px 92.048px;
 }
+
+.container1 {
+  background: rgb(240,238,227);
+  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
+  color: #3F403E;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48.4463px 92.048px;
+}
+
+.portfolio-image {
+  background-image: url('./portfolioimage.png');
+}
