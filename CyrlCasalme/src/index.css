@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --color-light: #213547;
   --background-light: #ffffff;
   --color-dark: rgba(255, 255, 255, 0.87);
@@ -118,7 +118,7 @@ button:focus-visible {
 }
 
 /* Form styles */
-.ui.form {
+/* .ui.form {
   width: 100%;
   max-width: 600px;
 }
@@ -175,4 +175,4 @@ button:focus-visible {
   a:hover {
     color: #747bff;
   }
-}
+} */ 
