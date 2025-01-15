@@ -11,6 +11,7 @@ export default function Home() {
     return (
       <div>
         <h1>Home Page</h1>
+        <br/>
         <CCard className="box1">
           <CCardBody>
             <h2 className="home-intro">
@@ -26,9 +27,7 @@ export default function Home() {
         <br />
         <CCard className="container1">
           <CCardBody className="where-to-find-me">
-            <h4>
-                    Where to find me:
-            </h4>
+            <h4 className="where">Where to find me:</h4>
           </CCardBody>
           <br />
         </CCard>
@@ -40,7 +39,9 @@ export default function Home() {
             <img src={MediumIcon} alt="Medium Icon" className="Medium-icon" />
             <img src={YouTubeIcon} alt="YouTube Icon" className="YouTube-icon" />
         </div>
-        <p>CCASALME || Copyright 2025 © Cyrl Casalme</p>
+        <br />
+        <br />
+        <p className="footer"><em>CCASALME || Copyright 2025 © Cyrl Casalme</em></p>
       </div>
     );
   }
