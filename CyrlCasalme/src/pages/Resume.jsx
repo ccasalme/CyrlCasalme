@@ -11,7 +11,6 @@ export default function Resume() {
             </CCardBody>
         </CCard>
         <br />
-        <br />
         <CCard>
             <CCardBody>
             <h4>Technical Proficiency:</h4>
@@ -66,7 +65,6 @@ export default function Resume() {
                 </CCardBody>
         </CCard>
         <br />
-        <br />
         <CCard>
             <CCardBody>
               <h4>Customer Service, Sales, and Finance:</h4> 
@@ -104,7 +102,6 @@ export default function Resume() {
                 </CCardBody>
         </CCard>
         <br />
-        <br />
         <CCard>
             <CCardBody>
                 <h4>Organizational Skills:</h4>
@@ -125,7 +122,6 @@ export default function Resume() {
                 <p>Task prioritization, Task delegation, Task tracking, Task completion</p>
                 </CCardBody>
         </CCard>
-        <br />
         <br />
         <CCard>
             <CCardBody>
@@ -154,7 +150,6 @@ export default function Resume() {
                 <h3>Relevant Certifications</h3>
             </CCardBody>
         </CCard>
-        <br />
         <br />
         <CCard>
             <CCardBody>

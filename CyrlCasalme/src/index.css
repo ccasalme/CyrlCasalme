@@ -96,3 +96,80 @@ li:hover {
   background: rgb(152,152,144);
   background: radial-gradient(circle, rgba(152,152,144,1) 56%, rgba(80,85,85,1) 95%);
 }
+
+.Portfolio-image {
+  border-radius: 10%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  box-shadow: 10px 10px 10px #3F403E;
+}
+
+.Blog-icon {
+  border-radius: 10%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  box-shadow: 10px 10px 10px #3F403E;
+}
+
+.GH-icon {
+  border-radius: 10%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  box-shadow: 10px 10px 10px #3F403E;
+}
+
+.LinkedIn-icon {
+  border-radius: 10%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  box-shadow: 10px 10px 10px #3F403E;
+}
+
+.Medium-icon {
+  border-radius: 10%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  box-shadow: 10px 10px 10px #3F403E;
+}
+
+.YouTube-icon {
+  border-radius: 10%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  box-shadow: 10px 10px 10px #3F403E;
+}
+
+.hero-banner {
+  background: rgb(240,238,227);
+  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
+  color: #3F403E;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 10px #3F403E;
+}
+.container3 {
+  background: rgb(240,238,227);
+  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
+  color: #3F403E;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48.4463px 92.048px;
+  width: 100%;
+}
