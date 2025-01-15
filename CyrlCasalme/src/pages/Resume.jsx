@@ -217,7 +217,7 @@ export default function Resume() {
                   </CCardBody>
                   <br />
                 <CCardBody>
-                  <h5>Full Stack Web Development || October 2024 to April 2025</h5>
+                  <h5>REMIC || October 2024</h5>
                 </CCardBody>
                   <br />
                   <CCardBody>
@@ -227,10 +227,10 @@ export default function Resume() {
                 </CCardBody>
                   <br />
               <CCardBody>
-                <h4>Mohawk College</h4>
+                <h5>Mohawk College</h5>
               </CCardBody>
                 <CCardBody>
-                  <h5>Paralegal, Associates Degree || 2017 to 2019</h5>
+                  <h4>Paralegal, Associates Degree || 2017 to 2019</h4>
                 </CCardBody>
                   <CCardBody>
                     <h6>Paralegal:</h6>

@@ -15,7 +15,7 @@ export default function Home() {
         <CCard className="box1">
           <CCardBody>
             <h2 className="home-intro">
-                Welcome to my portfolio! I am Cyrl, a full stack developer
+                Welcome to my portfolio! I am Cyrl, a Full-Stack Developer
                 with a passion for creating and designing websites.
             </h2>
         </CCardBody>
