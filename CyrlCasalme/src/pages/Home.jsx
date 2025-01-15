@@ -1,49 +1,44 @@
 import React from 'react';
-import { CCard, CCardBody } from '@coreui/react';
+import { CButton, CCard, CCardBody, CCardImage, CCardText, CCardTitle } from '@coreui/react';
+import PortfolioImage from '../assets/Portfolioimage.png';
+import BlogImage from '../assets/Blogwebsite.png';
+import GHIcon from '../assets/GH.png';
+import LinkedInIcon from '../assets/Linkedin.png';
+import MediumIcon from '../assets/MediumIcon.png';
+import YouTubeIcon from '../assets/YT.png';
 export default function Home() {
     return (
       <div>
         <h1>Home Page</h1>
         <CCard className="box1">
           <CCardBody>
-            <h1 className="home-intro">
-                Welcome to my portfolio! I am Cyrl Casalme, a full stack developer
+            <h2 className="home-intro">
+                Welcome to my portfolio! I am Cyrl, a full stack developer
                 with a passion for creating and designing websites.
-            </h1>
+            </h2>
         </CCardBody>
         </CCard>
         <br />
-        <br />
         <br/>
-        <CCard ClassName="box2">
-            <CCardBody>
-            </CCardBody>
-        </CCard>
+        <img src={PortfolioImage} alt="Portfolio Image" className="Portfolio-image" />
         <br />
         <br />
         <CCard className="container1">
           <CCardBody className="where-to-find-me">
-            <CCardBody className="where-to-find-me">
-            <h3>
+            <h4>
                     Where to find me:
-            </h3>
-            </CCardBody>
-                <ul>
-                    <li>
-                        <a href="https://www.linkedin.com/in/cyrl-casalme-948835181/">LinkedIn</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/ccasalme">Github</a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/@CCasalme">YouTube</a>
-                    </li>
-                    <li>
-                        <a href="https://stealmynoteshere.com/">Blogging Website</a>
-                    </li>
-                </ul>
+            </h4>
           </CCardBody>
+          <br />
         </CCard>
+        <br />
+        <div className="container3">
+            <img src={BlogImage} alt="Blog Icon" className="Blog-icon" />
+            <img src={GHIcon} alt="GitHub Icon" className="GH-icon" />
+            <img src={LinkedInIcon} alt="LinkedIn Icon" className="LinkedIn-icon" />
+            <img src={MediumIcon} alt="Medium Icon" className="Medium-icon" />
+            <img src={YouTubeIcon} alt="YouTube Icon" className="YouTube-icon" />
+        </div>
       </div>
     );
   }
