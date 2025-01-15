@@ -5,6 +5,7 @@ export default function Resume() {
     return (
       <div>
         <h1>Resume</h1>
+        <br />
         <CCard>
             <CCardBody>
                 <h3>Professional Competencies</h3>
@@ -310,7 +311,9 @@ export default function Resume() {
                     ||Mentored new representatives in account handling, sales opportunities, and de-escalation techniques.</p>
               </CCardBody>
         </CCard>
-        <p>CCASALME || Copyright 2025 © Cyrl Casalme</p>
+        <br />
+        <br />
+        <p className="footer"><em>CCASALME || Copyright 2025 © Cyrl Casalme</em></p>
       </div>
     );
   }

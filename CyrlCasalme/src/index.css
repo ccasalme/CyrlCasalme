@@ -1,3 +1,7 @@
+header {
+  text-align: center;
+}
+
 body {
   background: rgb(165,170,175);
   background: radial-gradient(circle, rgba(165,170,175,1) 34%, rgba(68,82,99,1) 100%);
@@ -10,14 +14,65 @@ h1 {
   font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
   padding: 1rem;
   text-align: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #3F403E;
 
+}
+
+h2 {
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #3F403E;
+}
+
+h3 {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 9px 9px 9px #3F403E;
+}
+
+h4 {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 8px 8px 8px #3F403E;
+  font-weight: italic;
+}
+
+h5 {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #3F403E;
+  font-weight: bold;
+}
+
+h6 {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #3F403E;
+  font-weight: bold;
 }
 
 p {
   color: rgb(3, 3, 3);
   font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
   padding: 5rem;
+  margin: 1rem;
   text-align: center;
+  box-shadow: 2px 2px 2px #3F403E;
+  border-radius: 10px;
+  line-height: 2;
+}
+
+a {
+  margin: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 8px 8x 8px #3F403E;
+  line-height: 2;
 }
 
 ul.nav.nav-tabs {
@@ -33,8 +88,8 @@ ul.nav.nav-tabs {
   }
   
   ul.nav.nav-tabs:hover {
-    background: rgb(152,152,144);
-    background: radial-gradient(circle, rgba(152,152,144,1) 56%, rgba(80,85,85,1) 95%);
+    background: rgb(240,238,227);
+  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
 }
 
 div.card-body {
@@ -103,7 +158,7 @@ li:hover {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  box-shadow: 10px 10px 10px #3F403E;
+  box-shadow: 10px 10px 10px #3F403E
 }
 
 .Blog-icon {
@@ -172,4 +227,103 @@ li:hover {
   align-items: center;
   padding: 48.4463px 92.048px;
   width: 100%;
+  box-shadow: 10px 10px 10px #3F403E;
+  border-radius: 20px;
+}
+
+.aboutMe{
+  background: rgb(240,238,227);
+  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
+  color: #3F403E;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  justify-content: center;
+  align-items: center;
+  padding: 48.4463px 92.048px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #3F403E;
+  line-height: 2;
+}
+
+.home-intro {
+  display: flex;
+  color: black;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 10px 10px 10px #3F403E;
+  line-height: 1;
+  border-radius: 20px;
+}
+
+.where-to-find-me {
+  background: rgb(240,238,227);
+  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
+  color: #3F403E;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48.4463px 92.048px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #5a5a53;
+  line-height: 2;
+}
+
+.where {
+  background: rgb(240,238,227);
+  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
+  color: #3F403E;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  padding: 48.4463px 92.048px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #5a5a53;
+  line-height: 2;
+}
+.box1{
+  background: rgb(17,17,14);
+  background: radial-gradient(circle, rgba(17,17,14,1) 52%, rgba(181,203,203,1) 99%);
+  color: #3F403E;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48.4463px 92.048px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #5a5a53;
+  line-height: 2;
+}
+
+.aboutBox {
+  background: rgb(17,17,14);
+  background: radial-gradient(circle, rgba(17,17,14,1) 52%, rgba(181,203,203,1) 99%);
+  color: #3F403E;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48.4463px 92.048px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #5a5a53;
+  line-height: 2;
+}
+
+.h2About {
+  color: black;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.footer {
+  background: rgb(240,238,227);
+  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
+  text-align: center;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #3F403E;
 }
