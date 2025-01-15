@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import { CButton, CCard, CCardBody, CCardImage, CCardText, CCardTitle } from '@coreui/react';
 import PortfolioImage from '../assets/Portfolioimage.png';
 import BlogImage from '../assets/Blogwebsite.png';
@@ -39,6 +40,7 @@ export default function Home() {
             <img src={MediumIcon} alt="Medium Icon" className="Medium-icon" />
             <img src={YouTubeIcon} alt="YouTube Icon" className="YouTube-icon" />
         </div>
+        <p>CCASALME || Copyright 2025 © Cyrl Casalme</p>
       </div>
     );
   }

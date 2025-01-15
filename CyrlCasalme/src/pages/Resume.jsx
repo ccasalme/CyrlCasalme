@@ -310,7 +310,7 @@ export default function Resume() {
                     ||Mentored new representatives in account handling, sales opportunities, and de-escalation techniques.</p>
               </CCardBody>
         </CCard>
-        <br />
+        <p>CCASALME || Copyright 2025 © Cyrl Casalme</p>
       </div>
     );
   }

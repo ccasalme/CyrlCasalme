@@ -31,6 +31,7 @@ export default function Portfolio() {
                 This is some text within a card body.
             </CCardBody>
         </CCard>
+        <p>CCASALME || Copyright 2025 © Cyrl Casalme</p>
       </div>
     );
   }
