@@ -65,6 +65,7 @@ p {
   box-shadow: 2px 2px 2px #3F403E;
   border-radius: 10px;
   line-height: 2;
+  font-size: 1.08rem;
 }
 
 a {
@@ -73,6 +74,8 @@ a {
   border-radius: 10px;
   box-shadow: 8px 8x 8px #3F403E;
   line-height: 2;
+  padding: 1rem;
+  font-size: 1.08rem;
 }
 
 ul.nav.nav-tabs {
