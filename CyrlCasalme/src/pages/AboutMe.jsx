@@ -1,5 +1,6 @@
 import React from 'react';
-import { CCard, CCardBody } from '@coreui/react';
+import { CCard, CCardBody } from '@coreui/react'
+import PortfolioImage from '../assets/Portfolioimage.png';
 
 export default function AboutMe() {
     return (
@@ -25,6 +26,9 @@ export default function AboutMe() {
                 </p>
             </CCardBody>
         </CCard>
+        <br />
+        <br />
+
         <br />
         <br />
         <CCard>

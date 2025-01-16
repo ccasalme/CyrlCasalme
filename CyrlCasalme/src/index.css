@@ -84,27 +84,18 @@ a:hover {
 }
 
 ul.nav.nav-tabs {
-  background: rgb(152,152,144);
-  background: radial-gradient(circle, rgba(152,152,144,1) 56%, rgba(80,85,85,1) 95%);
-  color: rgb(167, 133, 133);
-  border-radius: 10px;
+  background: rgb(240,238,227);
+  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   list-style-type: none;
   padding: 1rem;
   }
-  
-  ul.nav.nav-tabs:hover {
-    background: rgb(240,238,227);
-  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
-}
 
 div.card-body {
   background: rgb(240,238,227);
   background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
-  color: #3F403E;
-  color: rgb(167, 133, 133);
   color: #3F403E;
   font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
   display: flex;
@@ -135,10 +126,6 @@ div.card-body {
   padding: 48.4463px 92.048px;
 }
 
-.box2 {
-  background-image: url('https://images.unsplash.com/photo-1612838326820-4b3b3b3b3b3b'); /*test*/
-}
-
 h3 {
   color: black;
   font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
@@ -153,11 +140,6 @@ li {
   font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
   padding: 0.25rem;
   text-align: center;
-}
-
-li:hover {
-  background: rgb(152,152,144);
-  background: radial-gradient(circle, rgba(152,152,144,1) 56%, rgba(80,85,85,1) 95%);
 }
 
 .Portfolio-image {
@@ -264,8 +246,6 @@ li:hover {
 }
 
 .where-to-find-me {
-  background: rgb(240,238,227);
-  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
   color: #3F403E;
   font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
   display: flex;
@@ -278,8 +258,6 @@ li:hover {
 }
 
 .where {
-  background: rgb(240,238,227);
-  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
   color: #3F403E;
   font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
   display: flex;
