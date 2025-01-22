@@ -1,43 +1,50 @@
-import React from 'react';
-import { CCard, CCardBody } from '@coreui/react';
+import React, { useState } from 'react';
 
+function Contact() {
+    const [formData, setFormData] = useState({
+        name: '',
+        email: ''
+    });
 
+    const handleChange = (event) => {
+        const { name, value } = event.target;
+        setFormData(prevState => ({
+            ...prevState,
+            [name]: value
+        }));
+    };
 
-export default function Contact() {
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        // Here, you would typically handle the form submission, e.g., sending data to an API
+        console.log('Contact Form submitted!', formData);
+    };
+
     return (
-      <div>
-        <h1>Contact Page</h1>
-        <br />
-        <CCard>
-            <CCardBody>
-                This is some text within a card body.
-            </CCardBody>
-        </CCard>
-        <br />
-        <br />
-        <CCard>
-            <CCardBody>
-                This is some text within a card body.
-            </CCardBody>
-        </CCard>
-        <br />
-        <br />
-        <CCard>
-            <CCardBody>
-                This is some text within a card body.
-            </CCardBody>
-        </CCard>
-        <br />
-        <br />
-        <CCard>
-            <CCardBody>
-                This is some text within a card body.
-            </CCardBody>
-        </CCard>
-        <br />
-        <br />
-        <p className="footer"><em>CCASALME || Copyright 2025 © Cyrl Casalme</em></p>
-      </div>
+        <>
+        <h1>Contact Form</h1>
+        <form name="contact" onSubmit={handleSubmit}>
+            <p>
+                <label>
+                    Name: 
+                    <input type="text" name="name" value={formData.name} onChange={handleChange} />
+                </label>
+            </p>
+            <p>
+                <label>
+                    Email: 
+                    <input type="email" name="email" value={formData.email} onChange={handleChange} />
+                </label>
+            </p>
+            <p>
+                <button type="submit">Send
+                </button>
+                
+            </p>
+        </form><p className="footer"><em>CCASALME || Copyright 2025 © Cyrl Casalme</em></p></>
     );
-  }
+}
+
+export default Contact;
+
   

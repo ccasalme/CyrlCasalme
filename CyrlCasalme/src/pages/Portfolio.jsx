@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
-// // import cssPic from '../assets/css.png';
-// // import jsPic from '../assets/js.png';
-// // import htmlPic from '../assets/html.png';
+import React from 'react';
+import PortfolioImage from '../assets/Portfolioimage.png';
 
 export default function Portfolio() {
     return (
         <>
+           <style>{`body { background-image: {PortfolioImage} }`}</style>
         </>
     );
 }
-
