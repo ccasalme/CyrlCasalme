@@ -1,5 +1,6 @@
 import React from 'react';
 import { CCard, CCardBody } from '@coreui/react';
+import Footer from './Footer';
 
 export default function Resume() {
     return (
@@ -313,6 +314,7 @@ export default function Resume() {
         </CCard>
         <br />
         <br />
+        <Footer />
         <p className="footer"><em>CCASALME || Copyright 2025 © Cyrl Casalme</em></p>
       </div>
     );

@@ -1,6 +1,6 @@
 import React from 'react';
 import { CCard, CCardBody } from '@coreui/react'
-import PortfolioImage from '../assets/Portfolioimage.png';
+import Footer from './Footer';
 
 export default function AboutMe() {
     return (
@@ -27,24 +27,7 @@ export default function AboutMe() {
             </CCardBody>
         </CCard>
         <br />
-        <br />
-
-        <br />
-        <br />
-        <CCard>
-            <CCardBody>
-                This is some text within a card body.
-            </CCardBody>
-        </CCard>
-        <br />
-        <br />
-        <CCard>
-            <CCardBody>
-                This is some text within a card body.
-            </CCardBody>
-        </CCard>
-        <br />
-        <br />
+        <Footer />
         <p className="footer"><em>CCASALME || Copyright 2025 © Cyrl Casalme</em></p>
       </div>
     );

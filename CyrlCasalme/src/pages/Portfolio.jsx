@@ -1,10 +1,16 @@
-import React from 'react';
-import PortfolioImage from '../assets/Portfolioimage.png';
+import React, { useState } from 'react';
+import Footer from './Footer';
 
-export default function Portfolio() {
+function Portfolio() {
     return (
         <>
-           <style>{`body { background-image: {PortfolioImage} }`}</style>
+            <h1>Portfolio</h1>
+            <Footer />
+            <p className="footer"><em>CCASALME || Copyright 2025 © Cyrl Casalme</em></p>
         </>
     );
 }
+
+export default Portfolio;
+
+  
