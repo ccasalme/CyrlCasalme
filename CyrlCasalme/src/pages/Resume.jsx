@@ -1,11 +1,14 @@
 import React from 'react';
 import { CCard, CCardBody } from '@coreui/react';
 import Footer from './Footer';
+import resume from '../assets/Resume.pdf';
 
 export default function Resume() {
     return (
       <div>
         <h1>Resume</h1>
+        <br />
+        <a class="resume" href={resume} download="CyrlCasalmeResume.pdf">Download Resume in PDF here</a>
         <br />
         <CCard>
             <CCardBody>
