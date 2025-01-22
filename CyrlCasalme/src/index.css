@@ -438,3 +438,13 @@ li {
   box-shadow: 10px 10px 10px #3F403E;
   width: 100%;
 }
+
+.form {
+  background: rgb(240,238,227);
+  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
+  color: #3F403E;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  padding: 0px;
+  box-shadow: 10px 10px 10px #3F403E;
+  width: 100%;
+}

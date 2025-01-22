@@ -4,7 +4,8 @@ import Footer from './Footer';
 function Contact() {
     const [formData, setFormData] = useState({
         name: '',
-        email: ''
+        email: '',
+        message: ''
     });
 
     const handleChange = (event) => {
@@ -24,31 +25,35 @@ function Contact() {
     return (
         <>
             <h1>Contact Form</h1>
-            <form name="contact" onSubmit={handleSubmit}>
+            <form className="form" onSubmit={handleSubmit}>
             <p>
                 <label>
-                    Name: 
-                    <input type="text" name="name" value={formData.name} onChange={handleChange} />
+                    <strong>Name:</strong>
+                    <br />
+                    <input type="text" placeholder="Enter Name Here..." name="name" value={formData.name} onChange={handleChange} />
                 </label>
             </p>
             <p>
                 <label>
-                    Email: 
-                    <input type="email" name="email" value={formData.email} onChange={handleChange} />
+                    <strong>Email:</strong>
+                    <br /> 
+                    <input type="email" placeholder="Enter Email Here..." name="email" value={formData.email} onChange={handleChange} />
                 </label>
             </p>
             <p>
                 <label>
-                    Message: 
-                    <textarea name="message" />
+                    <strong>Message:</strong>
+                    <br /> 
+                    <textarea name="message" placeholder="Enter Message Here..." value={formData.message} onChange={handleChange} />
                 </label>
             </p>
             <p>
                 <button type="submit">Send
                 </button>
             </p>
+            </form>
             <Footer />
-            </form><p className="footer"><em>CCASALME || Copyright 2025 © Cyrl Casalme</em></p>
+            <p className="footer"><em>CCASALME || Copyright 2025 © Cyrl Casalme</em></p>
         </>
     );
 }
