@@ -19,6 +19,7 @@ export default function Home() {
         <br/>
         <img src={PortfolioImage} alt="Portfolio Image" className="Portfolio-image" />
         <br />
+        <br />
         <Footer />
         <p className="footer"><em>CCASALME || Copyright 2025 © Cyrl Casalme</em></p>
       </div>

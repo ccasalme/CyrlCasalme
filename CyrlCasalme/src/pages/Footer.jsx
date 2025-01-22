@@ -9,12 +9,24 @@ export default function Footer() {
     return (
         <div>
             <div className="container3">
-                <h4 className="where">Where to find me:</h4>
-                    <img src={BlogImage} alt="Blog Icon" className="Blog-icon" />
-                    <img src={GHIcon} alt="GitHub Icon" className="GH-icon" />
-                    <img src={LinkedInIcon} alt="LinkedIn Icon" className="LinkedIn-icon" />
-                    <img src={MediumIcon} alt="Medium Icon" className="Medium-icon" />
-                    <img src={YouTubeIcon} alt="YouTube Icon" className="YouTube-icon" />
+                <a href="https://stealmynoteshere.com">Blogging Website
+                    <img class="blog" src={BlogImage} alt="Blog Icon" className="Blog-icon" />
+                </a>
+                <br />
+                <a href="https://github.com/ccasalme">Github
+                <img src={GHIcon} alt="GitHub Icon" className="GH-icon" />
+                </a>
+                <br />
+                <a href="">LinkedIn Profile
+                <img src={LinkedInIcon} alt="LinkedIn Icon" className="LinkedIn-icon" />
+                </a>
+                <a href="">Medium
+                <img src={MediumIcon} alt="Medium Icon" className="Medium-icon" />
+                </a>
+                <a href="">YouTube
+                <img src={YouTubeIcon} alt="YouTube Icon" className="YouTube-icon" />
+                </a>
+                
             </div>
                 <br />
         </div>
