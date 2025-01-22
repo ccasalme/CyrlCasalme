@@ -17,13 +17,13 @@ export default function Footer() {
                 <img src={GHIcon} alt="GitHub Icon" className="GH-icon" />
                 </a>
                 <br />
-                <a href="">LinkedIn Profile
+                <a href="https://www.linkedin.com/in/cyrl-casalme-948835181/">LinkedIn Profile
                 <img src={LinkedInIcon} alt="LinkedIn Icon" className="LinkedIn-icon" />
                 </a>
-                <a href="">Medium
+                <a href="https://medium.com/hermes-is-inside-the-membrane">Medium
                 <img src={MediumIcon} alt="Medium Icon" className="Medium-icon" />
                 </a>
-                <a href="">YouTube
+                <a href="https://www.youtube.com/@CCasalme">YouTube
                 <img src={YouTubeIcon} alt="YouTube Icon" className="YouTube-icon" />
                 </a>
                 
