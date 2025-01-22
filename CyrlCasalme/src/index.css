@@ -75,7 +75,7 @@ a {
   box-shadow: 8px 8x 8px #3F403E;
   line-height: 2;
   padding: 1rem;
-  font-size: 1.08rem;
+  font-size: 1rem;
 }
 
 a:hover {
@@ -156,7 +156,7 @@ li {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  width: 28%;
   box-shadow: 10px 10px 10px #3F403E;
 }
 
@@ -165,7 +165,7 @@ li {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  width: 28%;
   box-shadow: 10px 10px 10px #3F403E;
 }
 
@@ -174,7 +174,7 @@ li {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  width: 28%;
   box-shadow: 10px 10px 10px #3F403E;
 }
 
@@ -183,7 +183,7 @@ li {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  width: 28%;
   box-shadow: 10px 10px 10px #3F403E;
 }
 
@@ -192,7 +192,7 @@ li {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  width: 28%;
   box-shadow: 10px 10px 10px #3F403E;
 }
 
@@ -215,7 +215,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 48.4463px 92.048px;
+  padding: 0px 0px;
   width: 100%;
   box-shadow: 10px 10px 10px #3F403E;
   border-radius: 20px;
