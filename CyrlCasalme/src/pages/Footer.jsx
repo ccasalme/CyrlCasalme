@@ -2,7 +2,7 @@ import React from 'react';
 import BlogImage from '../assets/Blogwebsite.png';
 import GHIcon from '../assets/GH.png';
 import LinkedInIcon from '../assets/Linkedin.png';
-import MediumIcon from '../assets/MediumIcon.png';
+// import MediumIcon from '../assets/MediumIcon.png';
 import YouTubeIcon from '../assets/YT.png';
 
 export default function Footer() {
@@ -20,9 +20,9 @@ export default function Footer() {
                 <a href="https://www.linkedin.com/in/cyrl-casalme-948835181/">LinkedIn Profile
                 <img src={LinkedInIcon} alt="LinkedIn Icon" className="LinkedIn-icon" />
                 </a>
-                <a href="https://medium.com/hermes-is-inside-the-membrane">Medium
+                {/* <a href="https://medium.com/hermes-is-inside-the-membrane">Medium
                 <img src={MediumIcon} alt="Medium Icon" className="Medium-icon" />
-                </a>
+                </a> */}
                 <a href="https://www.youtube.com/@CCasalme">YouTube
                 <img src={YouTubeIcon} alt="YouTube Icon" className="YouTube-icon" />
                 </a>
