@@ -37,6 +37,12 @@ function Contact() {
                 </label>
             </p>
             <p>
+                <label>
+                    Message: 
+                    <textarea name="message" />
+                </label>
+            </p>
+            <p>
                 <button type="submit">Send
                 </button>
                 
