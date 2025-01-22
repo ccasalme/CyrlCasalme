@@ -291,6 +291,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   padding: 48.4463px 92.048px;
   border-radius: 20px;
   box-shadow: 10px 10px 10px #5a5a53;
@@ -335,4 +336,18 @@ li {
   border-radius: 20px;
   box-shadow: 10px 10px 10px #3F403E;
   line-height: 2;
+}
+
+.profile {
+  background: rgb(240,238,227);
+  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
+  display: flex;
+  padding: 48.4463px 92.048px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #3F403E;
+  line-height: 2;
+  width: 35%;
 }

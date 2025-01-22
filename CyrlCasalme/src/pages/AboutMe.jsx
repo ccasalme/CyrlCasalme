@@ -1,6 +1,7 @@
 import React from 'react';
 import { CCard, CCardBody } from '@coreui/react'
 import Footer from './Footer';
+import profilePic from '../assets/profile.jpg';
 
 export default function AboutMe() {
     return (
@@ -12,7 +13,8 @@ export default function AboutMe() {
                 <h2 className="h2About">Who is CCasalme?</h2>
             </CCardBody>
         </CCard>
-        <img />
+        <br />
+        <img className="profile" src={profilePic} alt="Profile Picture" />
         <br />
         <CCard className="aboutBox">
             <CCardBody>
