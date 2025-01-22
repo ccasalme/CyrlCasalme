@@ -215,6 +215,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   padding: 0px 0px;
   width: 100%;
   box-shadow: 10px 10px 10px #3F403E;
@@ -342,12 +343,98 @@ li {
   background: rgb(240,238,227);
   background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
   display: flex;
-  padding: 48.4463px 92.048px;
+  padding: 10px;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  border-radius: 20px;
+  border-radius: 50px;
   box-shadow: 10px 10px 10px #3F403E;
   line-height: 2;
-  width: 35%;
+  width: 30%;
+  margin-left: 30px;
+  margin-right: 50px;
+}
+
+.movie {
+  background: rgb(240,238,227);
+  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
+  color: #3F403E;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #3F403E;
+  width: 100%;
+}
+
+.employee-directory {
+  background: rgb(240,238,227);
+  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
+  color: #3F403E;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #3F403E;
+  width: 100%;
+}
+
+.readme-generator {
+  background: rgb(240,238,227);
+  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
+  color: #3F403E;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #3F403E;
+  width: 100%;
+}
+
+.vehicle-builder {
+  background: rgb(240,238,227);
+  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
+  color: #3F403E;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #3F403E;
+  width: 100%;
+}
+
+.react-portfolio {
+  background: rgb(240,238,227);
+  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
+  color: #3F403E;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #3F403E;
+  width: 100%;
+}
+
+.weather-dashbord {
+  background: rgb(240,238,227);
+  background: radial-gradient(circle, rgba(240,238,227,1) 63%, rgba(173,180,182,1) 100%);
+  color: #3F403E;
+  font-family: 'Merryweather', Verdana, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #3F403E;
+  width: 100%;
 }
