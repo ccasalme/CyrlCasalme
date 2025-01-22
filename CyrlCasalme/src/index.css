@@ -313,3 +313,11 @@ li {
   border-radius: 20px;
   box-shadow: 10px 10px 10px #3F403E;
 }
+
+.portfolio-background {
+  background-image: url('../assets/Portfolioimage.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Cover the full viewport height */
+  width: 100%;
+}
