@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Footer from './Footer';
 
 function Contact() {
     const [formData, setFormData] = useState({
@@ -22,8 +23,8 @@ function Contact() {
 
     return (
         <>
-        <h1>Contact Form</h1>
-        <form name="contact" onSubmit={handleSubmit}>
+            <h1>Contact Form</h1>
+            <form name="contact" onSubmit={handleSubmit}>
             <p>
                 <label>
                     Name: 
@@ -45,9 +46,10 @@ function Contact() {
             <p>
                 <button type="submit">Send
                 </button>
-                
             </p>
-        </form><p className="footer"><em>CCASALME || Copyright 2025 © Cyrl Casalme</em></p></>
+            <Footer />
+            </form><p className="footer"><em>CCASALME || Copyright 2025 © Cyrl Casalme</em></p>
+        </>
     );
 }
 
